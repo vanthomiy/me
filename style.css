@@ -1325,3 +1325,13 @@ img {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--primary-color);
 }/*# sourceMappingURL=style.css.map */
+
+.testimonials .mobile-margin {
+  margin-top: unset;
+}
+
+@media (max-width: 1100px) {
+  .testimonials .mobile-margin {
+    margin-top: 80px;
+  }
+}
