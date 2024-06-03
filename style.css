@@ -680,6 +680,15 @@ img {
   border: 10px solid var(--border);
   transition: all 0.3s ease-in;
 }
+.skills .skills-flex-container .box-click {
+  flex: 0 0 15%;
+  background: var(--primary-color);
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 24px;
+  padding: 25px;
+  text-align: center;
+  border: 10px solid var(--border);
+  transition: all 0.3s ease-in;
+}
 .skills .skills-flex-container .box .image {
   transition: all 0.3s ease-in-out 0.1s;
 }
